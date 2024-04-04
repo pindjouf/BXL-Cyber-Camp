@@ -38,7 +38,7 @@ subnet 192.168.129.0 netmask 255.255.255.0 {
 3. Why this specific address pool? It's in my actual network but I have nothing in that range so I used unallocated hosts to know if it's working or not.
 4. I'm not sure if the domain names matter here so I just put what was in the tutorial.
 
-OK so for the last part (on the server-side) `sudo systemctl restart isc-dhcp-server`.
+OK so for the last part (on the server-side) `sudo systemctl restart isc-dhcp-server`. \
 And after a `sudo systemctl status isc-dhcp-server` we can see that the server is indeed running!
 ```
 ● isc-dhcp-server.service - ISC DHCP IPv4 server
