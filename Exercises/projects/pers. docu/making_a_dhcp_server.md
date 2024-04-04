@@ -11,7 +11,7 @@ Ubuntu server allows you to add openssh pre-installation so I used that, let's d
 And we're greeted with this beautiful welcome text! \
 [put ssh_greeting.png screenshot here]
 ___
-### The DHCP (server)part!
+### The DHCP (server) part!
 I will be following this tutorial: https://www.youtube.com/watch?v=1csFmQeXHlg
 
 First I have to install ==isc-dhcp-server== like so: `sudo apt install isc-dhcp-server`.
