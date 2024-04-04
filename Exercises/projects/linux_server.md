@@ -1,3 +1,5 @@
+# Current state = Server cannot access the internet for some reason and is not at all setup
+
 1. One server (no GUI) running the following services:
 	- [ ] DHCP (one scope serving the local internal network)  isc-dhcp-server
     - [ ] DNS (resolve internal resources, a redirector is used for external resources) bind
