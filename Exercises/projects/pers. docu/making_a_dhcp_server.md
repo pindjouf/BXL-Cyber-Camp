@@ -88,4 +88,4 @@ Well he didn't do anything in particular for this and it worked perfectly fine i
 
 Those are the two options I will have to explore tomorrow. \
 For now I am done with this because I have to move fast. \
-This document serves as a testament to my current understanding of the subject. \
+This document serves as a testament to my current understanding of the subject.
