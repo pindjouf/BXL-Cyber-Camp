@@ -71,3 +71,42 @@ Now apache's gonna be looking for the glpi website on /var/www/glpi. So go ahead
 
 Your server's IP should now show you the GLPI GUI setup!\
 ![alt text](/assets/glpi_setup_greeting.png "Title")
+
+But we're just gonna run the install script in cli.\
+First we have to set permissions:\
+`sudo chown -R www-data:www-data /var/www/glpi`\
+then\
+`php /var/www/glpi/bin/console db:install --db-host=localhost --db-name=glpi --db-user=admin --db-password='water'`
+
+OK so we're missing some mandatory system requirements and some php extensions so let's check that out here's the error fyi:
+```
+PHP Warning:  Missing required intl PHP extension in /var/www/glpi/src/Session.php on line 747
+Some mandatory system requirements are missing. Run the "php bin/console system:check_requirements" command for more details.
+```
+
+So I do `sudo php /var/www/glpi/bin/console system:check_requirements`
+And they tell me:
+`PHP Warning:  Missing required intl PHP extension in /var/www/glpi/src/Session.php on line 747
+Uncaught Exception Error: Class "Normalizer" not found in /var/www/glpi/vendor/symfony/console/Helper/Helper.php at line 65`
+
+I will take care of the intl extension first since I know how to do it.
+
+`sudo vim /etc/php/8.1/apache2/php.ini`
+`sudo vim /etc/php/8.1/cli/php.ini`
+
+And uncomment the necessary extensions `intl` in our case. I also took the liberty of uncommenting `mysqli` `curl` & `gd` since I've already had problems with those in the past.
+
+Now when I check requirements I'm getting an even fatter error:
+```
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/lib/php/20210902/curl (/usr/lib/php/20210902/curl: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/curl.so (/usr/lib/php/20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'gd' (tried: /usr/lib/php/20210902/gd (/usr/lib/php/20210902/gd: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/gd.so (/usr/lib/php/20210902/gd.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: /usr/lib/php/20210902/intl (/usr/lib/php/20210902/intl: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/intl.so (/usr/lib/php/20210902/intl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20210902/mysqli (/usr/lib/php/20210902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20210902/mysqli.so (/usr/lib/php/20210902/mysqli.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Missing required intl PHP extension in /var/www/glpi/src/Session.php on line 747
+Uncaught Exception Error: Class "Normalizer" not found in /var/www/glpi/vendor/symfony/console/Helper/Helper.php at line 65
+```
+
+perhaps those extensions weren't installed properly with my php so I have to do it myself.
+
+Anyhow this marks the end of my work on this file for today as I have to move fast.\
+This document serves as a testament to my current understanding of the subject.
