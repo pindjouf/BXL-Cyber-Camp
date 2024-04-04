@@ -84,7 +84,7 @@ PHP Warning:  Missing required intl PHP extension in /var/www/glpi/src/Session.p
 Some mandatory system requirements are missing. Run the "php bin/console system:check_requirements" command for more details.
 ```
 
-So I do `sudo php /var/www/glpi/bin/console system:check_requirements`
+So I do `sudo php /var/www/glpi/bin/console system:check_requirements`\
 And they tell me:
 `PHP Warning:  Missing required intl PHP extension in /var/www/glpi/src/Session.php on line 747
 Uncaught Exception Error: Class "Normalizer" not found in /var/www/glpi/vendor/symfony/console/Helper/Helper.php at line 65`
