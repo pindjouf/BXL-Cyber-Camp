@@ -70,4 +70,4 @@ Now apache's gonna be looking for the glpi website on /var/www/glpi. So go ahead
 `sudo mv glpi /var/www`\
 
 Your server's IP should now show you the GLPI GUI setup!\
-![glpi setup greeting](https://github.com/pindjouf/Linuxx/blob/main/assets/glpi_setup_greeting.png "glpi setup page"
+![alt text](../../../assets/glpi_setup_greeting.png "Title")
