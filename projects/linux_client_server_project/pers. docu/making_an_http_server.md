@@ -9,7 +9,7 @@ I'm gonna need:
 `sudo systemctl restart apache2.service`\
 `sudo ufw allow 80`\
 And now we can see the beautiful apache default page!\
-[insert apache default page here]
+![alt text](/assets/apache_greeting.png "Title")
 2. **mariadb**\
 `sudo apt install mariadb-server`\
 `sudo systemctl start mysql`\

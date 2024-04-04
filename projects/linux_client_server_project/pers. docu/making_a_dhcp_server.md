@@ -9,7 +9,7 @@ Probably should've put that in the main readme as well...
 Ubuntu server allows you to add openssh pre-installation so I used that, let's do the first ssh into this machine:
 `ssh pindjouf@192.168.129.37`
 And we're greeted with this beautiful welcome text! \
-[put ssh_greeting.png screenshot here]
+![alt text](/assets/ssh_greeting.png "Title")
 ___
 ### The DHCP (server) part!
 I will be following this tutorial: https://www.youtube.com/watch?v=1csFmQeXHlg
