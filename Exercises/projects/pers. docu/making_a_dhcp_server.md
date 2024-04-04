@@ -6,9 +6,9 @@ Alright here we go, first I will make a new VM to have a blank machine.
 
 Probably should've put that in the main readme as well...
 
-ubuntu server allows you to add openssh pre-installation so I used that, let's do the first ssh into this machine:
+Ubuntu server allows you to add openssh pre-installation so I used that, let's do the first ssh into this machine:
 `ssh pindjouf@192.168.129.37`
-And we're greeted with this beautiful welcome text!
+And we're greeted with this beautiful welcome text! \
 [put ssh_greeting.png screenshot here]
 ___
 ### The DHCP (server)part!
