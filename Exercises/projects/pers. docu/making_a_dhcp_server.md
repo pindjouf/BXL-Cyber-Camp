@@ -63,10 +63,10 @@ unix  2      [ ]         DGRAM      CONNECTED     27906    2221/dhcpd
 ```
 
 So to make sure the port is open we do:
-`sudo ufw allow 67/udp`
-`sudo ufw enable`
-and to check if it's working:
-`sudo ufw status`
+`sudo ufw allow 67/udp` \
+`sudo ufw enable` \
+and to check if it's working: \
+`sudo ufw status` \
 here's what we get:
 ```
 Status: active
