@@ -19,6 +19,6 @@ Read the following [article](https://ryanstutorials.net/linuxtutorial/piping.php
 1. Create a pipe named "MyNammedPipe". Then execute the pwd command which will transmit the data in this pipe. Then use the cat command to read the contents of your "MyNammedPipe" pipe.
     > Your commands :
 1. With cat command, add number the lines in the file /etc/passwd with the command ``nl``
-    > Your commands :
+    > Your commands : `sudo cat | nl /etc/passwd`
 1. Using the previous nl command, the head and tail commands, display the lines of /etc/passwd between line 7 and line 12
-    > Your commands :
+    > Your commands : `cat | nl /etc/passwd | head -12 | tail -6`
