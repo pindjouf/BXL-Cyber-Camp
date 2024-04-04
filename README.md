@@ -1,8 +1,8 @@
 # Linuxx
-It's 8 PM
-My project has turned into a mess.
-I will restart the server from scratch.
-Here's what needs to be done by Friday 00:00:
+It's 8 PM \
+My project has turned into a mess. \
+I will restart the server from scratch. \
+Here's what needs to be done by Friday 00:00: \
 
 1. DHCP server (1 hour)
 2. DNS server (1 hour)
