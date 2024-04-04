@@ -35,5 +35,5 @@ the documentation must be clear, structured and must provide all elements of con
 
 ## Deliverables
 https://docs.google.com/document/d/18iHTN3YBXxK5nIiNiYMgM5f5u1MnjklDDH5HOl2_A60/edit?usp=sharing
-a summary in English (at least one page)
+\a summary in English (at least one page)
 Live demonstration in front of the group
