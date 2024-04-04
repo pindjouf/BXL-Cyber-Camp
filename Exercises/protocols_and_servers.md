@@ -4,7 +4,7 @@
 > * password : student  
 
 1.  On your kali (or other) , install ``ngnix`` to have an http server on port 8080. Replace the default page of ngnix by an html page displaying a hello world.
-    > No answer required: ✔
+    > No answer required: ✔ I followed this and made the necessary adjustments: https://landchad.net/basic/nginx/
 
 1. What other well-known service could be used instead of nginx? 
     > Your answer : apache
