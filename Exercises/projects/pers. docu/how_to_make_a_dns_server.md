@@ -1,6 +1,8 @@
 # How to make a DNS server
 IDK.
 
+Let's define the most basic goal of a DNS server first: Convert domain names to IP addresses. This is what I tried to do.
+
 I've followed the official documentation from Ubuntu to try and make `google.com` redirect to my server's IP but it doesn't. Instead `google.com` gets some random ipv6 address and a weird domain name assigned to it from I don't know where. Here's what the ping command shows us:
 `PING google.com(ams15s44-in-x0e.1e100.net (2a00:1450:400e:80f::200e)) 56 data bytes`
 And on WORKSTATION:
