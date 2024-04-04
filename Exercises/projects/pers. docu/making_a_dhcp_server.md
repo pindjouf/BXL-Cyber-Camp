@@ -14,7 +14,7 @@ ___
 ### The DHCP (server) part!
 I will be following this tutorial: https://www.youtube.com/watch?v=1csFmQeXHlg
 
-First I have to install ==isc-dhcp-server== like so: `sudo apt install isc-dhcp-server`.
+First I have to install `isc-dhcp-server` like so: `sudo apt install isc-dhcp-server`.
 
 The next step is to tell my server on which interface it has to listen for the dhcp requests. Here is how I did it: `sudo vim /etc/default/isc-dhcp-server` then I put `enp0s3` for the INTERFACEV4.
 
