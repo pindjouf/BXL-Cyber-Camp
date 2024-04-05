@@ -15,7 +15,7 @@
     - [x] Gimp
     - [x] Mullvad browser
     - **Required** 
-        - [ ] This workstation uses automatic addressing
+        - [x] This workstation uses automatic addressing
         - [x] The /home folder is located on a separate partition, same disk 
     - **Optional**
         - [ ] Propose and implement a solution to remotely help a user
