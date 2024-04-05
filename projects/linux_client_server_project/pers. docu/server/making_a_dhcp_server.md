@@ -91,18 +91,55 @@ Well he didn't do anything in particular for this and it worked perfectly fine i
 Let's explore our options.\
 It can't be the VM Network config because out of my only three options:\
 1. NAT = Both machines get the exact same IP.
-2. Internal Network = My machines don't get an IP addresses.
+2. Internal Network = My machines don't get IP addresses.
 3. Bridged Adapter = hasn't worked in the past but seems like the most viable option.
 
 So it must be something wrong with the DHCP Configuration file.
 
-But it makes sense that the client doesn't start getting his IP from my DHCP server automatically, that would be odd. If that was the case then people could just create the dhcp pools they want and have you in them, without any configuration on your device.
+But it makes sense that the client doesn't start getting his IP from my DHCP server automatically, that would be odd. If that was the case then people could just create the dhcp pools they want, and have you in them. Without any configuration on your device.
 
 So when thinking about this logically the issue must lie in the client, there must be something I can do to tell my WORKSTATION what DHCP server to get his IP from. But what?
 
-This is what I will be researching today.
+This is what I will be researching today.\
+I will also have to adapt the DHCP configuration to match my current IP since I am in a different location.\
+10.10.0.0 is my network address now.
+
+Also something to take into consideration is the fact that with this bridged adapter, both of these machines are connected to my `wlan0` interface. I'm not sure if that plays a role here but if I remember correctly from my packet tracer days, you can't have more than one connection on an interface. (Might just be on packet tracer though i don't know.)
+
+Ok so let's clarify our potential avenues of exploration to get a clearer view of what we can do now:
+
+1. Find out how to tell WORKSTATION which dhcp server to focus on.
+2. Create new interface on my computer to not have both machines on one interface.
+
+After some research option 1 seems like THE solution.
+I have to setup the network configuration in virtualbox first!
+I have to use a Host-only adapter so that I can put both of my machines on the same network!
+![alt text](/assets/vm_net.png)
+![alt text](/assets/ubu_net.png)
+As we can see our interface has been added but it's down let's bring it up with `sudo ifconfig enp0s8 inet 192.168.56.2 up`
+![alt text](/assets/working_net.png)
+Perfect!
+
+Now let's adapt the DHCP config to reflect those changes.\
+And we can now see our DHCP server is running perfectly.
+![alt text](/assets/working_dhcp.png)
+I just restarted my machine to see if everything would stay the same but no I have to turn on my interface on every startup so that messes up the dhcp config as well i have to restart that everytime after turning on my interface. I will have to fix that later.
+
+## Now for the client part
+
+I'm assuming all I have to do is to create another VM network config where I say that @ubuserver is my DHCP server and everything will be alright!
+![alt text](/assets/dhcp_client.png)
+I actually don't know why it is still forcing me to use manual addressing and on the wrong subnet but that's okay because let's look at the actual interface:
+![alt text](/assets/dhcp_success.png)
+The dhcp server overpowers the glitches of virtualbox!
+Here is proof that I am using automatic addressing and that my IP is indeed in the DHCP pool we configured previously.
+
+I now have a functional DHCP server to my name.
 
 
+### Things that still need to be done:
+1. Turn on host-only interface on startup and restart isc-dhcp-server as well.
+2. Update the DHCP config to include my DNS server when it's done.
 
 
 This document serves as a testament to my current understanding of the subject.

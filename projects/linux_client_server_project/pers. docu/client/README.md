@@ -30,7 +30,7 @@ Now we add it to the applications:\
 Manual partitioning was performed during the installation process:\
 Partition 1: /\
 Partition 2: /boot\
-Partition 3: /home\
+Partition 3: /home
 
 ### Networking Configuration:
 
