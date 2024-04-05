@@ -86,6 +86,23 @@ Well he didn't do anything in particular for this and it worked perfectly fine i
 1. I messed up somewhere in the configuration.
 2. He has a different network setup for his VMs. (Remember I put mine on a bridged adapter)
 
-Those are the two options I will have to explore tomorrow. \
-For now I am done with this because I have to move fast. \
+# The Day After
+
+Let's explore our options.\
+It can't be the VM Network config because out of my only three options:\
+1. NAT = Both machines get the exact same IP.
+2. Internal Network = My machines don't get an IP addresses.
+3. Bridged Adapter = hasn't worked in the past but seems like the most viable option.
+
+So it must be something wrong with the DHCP Configuration file.
+
+But it makes sense that the client doesn't start getting his IP from my DHCP server automatically, that would be odd. If that was the case then people could just create the dhcp pools they want and have you in them, without any configuration on your device.
+
+So when thinking about this logically the issue must lie in the client, there must be something I can do to tell my WORKSTATION what DHCP server to get his IP from. But what?
+
+This is what I will be researching today.
+
+
+
+
 This document serves as a testament to my current understanding of the subject.
