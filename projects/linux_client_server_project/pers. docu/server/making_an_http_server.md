@@ -108,5 +108,13 @@ Uncaught Exception Error: Class "Normalizer" not found in /var/www/glpi/vendor/s
 
 perhaps those extensions weren't installed properly with my php so I have to do it myself.
 
+Here is how I will install them:
+```
+sudo apt install -y vim wget tar php-curl php-zip php-gd php-intl php-intl php-pear php-imagick php-imap php-memcache php-pspell php-tidy php-xmlrpc php-xsl php-mbstring php-ldap php-ldap php-cas php-apcu libapache2-mod-php php-mysql php-bz2
+```
+
+Errors upon errors now.\
+My package manager won't update or install anything.
+
 Anyhow this marks the end of my work on this file for today as I have to move fast.\
 This document serves as a testament to my current understanding of the subject.
