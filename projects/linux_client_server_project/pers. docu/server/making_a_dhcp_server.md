@@ -86,7 +86,7 @@ Well he didn't do anything in particular for this and it worked perfectly fine i
 1. I messed up somewhere in the configuration.
 2. He has a different network setup for his VMs. (Remember I put mine on a bridged adapter)
 
-# The Day After
+# The Day After aka The Config That Works
 
 Let's explore our options.\
 It can't be the VM Network config because out of my only three options:\
@@ -138,7 +138,7 @@ I now have a functional DHCP server to my name.
 
 
 ### Things that still need to be done:
-1. Turn on host-only interface on startup and restart isc-dhcp-server as well.
+1. Turn on the host-only interface on startup and restart isc-dhcp-server as well.
 2. Update the DHCP config to include my DNS server when it's done.
 
 

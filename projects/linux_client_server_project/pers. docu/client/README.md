@@ -34,7 +34,7 @@ Partition 3: /home
 
 ### Networking Configuration:
 
-The workstation utilizes automatic addressing for networking. However, there are issues with obtaining IP addresses from the DHCP server, resulting in manual intervention. Further troubleshooting is planned to resolve this issue.
+The workstation utilizes automatic addressing for networking. ~~However, there are issues with obtaining IP addresses from the DHCP server, resulting in manual intervention. Further troubleshooting is planned to resolve this issue.~~ And it now works perfectly!
 
 ### Conclusion:
 
