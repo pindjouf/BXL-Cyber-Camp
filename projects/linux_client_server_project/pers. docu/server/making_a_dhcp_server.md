@@ -136,6 +136,9 @@ Here is proof that I am using automatic addressing and that my IP is indeed in t
 
 I now have a functional DHCP server to my name.
 
+### Final screenshot that proves it all:
+![alt text](/assets/success.png)
+
 
 ### Things that still need to be done:
 1. Turn on the host-only interface on startup and restart isc-dhcp-server as well.
