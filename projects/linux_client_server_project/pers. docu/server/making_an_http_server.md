@@ -116,5 +116,8 @@ sudo apt install -y vim wget tar php-curl php-zip php-gd php-intl php-intl php-p
 Errors upon errors now.\
 My package manager won't update or install anything.
 
-Anyhow this marks the end of my work on this file for today as I have to move fast.\
+### A few days later...
+
+I've managed to install the missing packages. How, you might ask. Well it just started working for some reason.
+
 This document serves as a testament to my current understanding of the subject.
