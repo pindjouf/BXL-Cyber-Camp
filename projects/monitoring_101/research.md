@@ -51,6 +51,10 @@ You can omit the `--state=running` flag if you want to see all the services.
 - Setup alerts for when there are too many failed authentication attempts.
 - Alerts for failed backups/automated reports.
 
+### Last notes
+
+You will get pretty much the same KPIs from most monitoring tools, so knowing what matters most for **your** specific use cases is gonna be key.\
+This is the difference between information and intel.
 
 ## Report draft on osmc-Edmund (Media server)
 
