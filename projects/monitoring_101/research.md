@@ -55,13 +55,13 @@ You can omit the `--state=running` flag if you want to see all the services.
 ### Last notes
 
 You will get pretty much the same KPIs from most monitoring tools, so knowing what matters most for **your** specific use cases is gonna be key.\
-This is the difference between information and intel.
+This is the difference between information and intel.\
+Raw data means nothing without a goal.
 
 ## Report draft on osmc-Edmund (Media server)
 
 ### Preamble
 The goal is to keep this machine as low-cost, low-consumption as possible since it only has 1-2 client(s) and is supposed to be mostly idle.\
 We're gonna be investigating to see if there is any over-consumption of its resources and try to determine why they're happening.
-
 
 
