@@ -25,6 +25,13 @@ The same streaming company has been growing lately.\
 After looking at the graphs on your system monitoring tool you notice that the the system load is getting ridiculously high, the hardware you currently have is never gonna be enough if your company keeps growing at this rate. \
 Thanks to that data you will be able to prevent your service being down in the future due to your system failing.
 
+### Simplified Version
+Gather data to see if somehting's messed up in your machine. 
+
+1. Get Data
+2. Send Alerts
+3. Make Report
+
 ### How to take care of your system
 Your services should stay available, reliable and secure.
 
@@ -47,9 +54,12 @@ You can omit the `--state=running` flag if you want to see all the services.
 - Alerts for failed backups/automated reports.
 
 
-### Report draft on osmc-Edmund (Media server)
+## Report draft on osmc-Edmund (Media server)
 
+### Preamble
+The goal is to keep this machine as low-cost, low-consumption as possible since it only has 1-2 client(s) and is supposed to be mostly idle.
 
+We're gonna be investigating to see if there is any over-consumption of its resources and try to determine why they're happening.
 
 
 
