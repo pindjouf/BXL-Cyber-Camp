@@ -38,5 +38,5 @@ Which has the following services running:
 - sonarr
 - lidarr
 - transmission (torrenting client)
-- kodi
+- kodi (media center)
 
