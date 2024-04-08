@@ -55,8 +55,7 @@ You can omit the `--state=running` flag if you want to see all the services.
 ## Report draft on osmc-Edmund (Media server)
 
 ### Preamble
-The goal is to keep this machine as low-cost, low-consumption as possible since it only has 1-2 client(s) and is supposed to be mostly idle.
-
+The goal is to keep this machine as low-cost, low-consumption as possible since it only has 1-2 client(s) and is supposed to be mostly idle.\
 We're gonna be investigating to see if there is any over-consumption of its resources and try to determine why they're happening.
 
 
