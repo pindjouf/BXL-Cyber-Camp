@@ -44,6 +44,7 @@ You can omit the `--state=running` flag if you want to see all the services.
 **How do you make sure that your services are reliable?**
 
 - Setup 'heartbeat checks' so that you can notice trends and prevent your server from getting pushed to its operational limits.
+- Ensuring reliability is all about prevention and quick responses to the common pitfalls of a machine.
 
 ### Security
 **How can monitoring practices keep your system safe?**
