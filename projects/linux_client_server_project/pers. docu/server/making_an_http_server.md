@@ -121,3 +121,4 @@ My package manager won't update or install anything.
 I've managed to install the missing packages. How, you might ask. Well it just started working for some reason.
 
 This document serves as a testament to my current understanding of the subject.
+
