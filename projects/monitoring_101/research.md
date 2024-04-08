@@ -18,9 +18,9 @@ We don't have unlimited resources so making sure we use them as efficiently as p
 If your media streaming company has 100 kbps upload speed, and from previously acquired data you know that 80 of those should be available at all times because that is what your customer base needs from your servers on average, all your other services (combined) should never go over 20 kbps or you're gonna be decreasing the quality of your service and losing customers as a result of that.
 
 
-**Simple example (system load)**\
+**Simple example (system load)**:\
 The same streaming company has been growing lately.\
-After looking at the graphs on your system monitoring tool you notice that the the system load is getting ridiculously high, the hardware you currently have is never gonna be enough if your company keeps growing at this rate. \
+After looking at the graphs on your system monitoring tool you notice that the system load is getting ridiculously high, the hardware you currently have is never gonna be enough if your company keeps growing at this rate. \
 Thanks to that data you will be able to prevent your service being down in the future due to your system failing.
 
 ### Simplified Version
