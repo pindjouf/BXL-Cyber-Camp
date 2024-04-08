@@ -23,12 +23,24 @@ So all your other services (combined) should never go over 20 kbps or you're gon
 ### How to take care of your system
 Your services should stay available, reliable and secure.
 
-### available
+### Availability
+**How to check what services are up and running?**
 
-How to check what services are up and running?
+- With `systemctl --type=service --state=running`.\
+You can omit the `--state=running` flag if you want to see all the services.
 
 
-### reliable 
+### Reliability 
+**How do you make sure that your services are reliable?**
 
-### secure.
+- Setup 'heartbeat checks' so that you can notice trends and prevent your server from getting pushed to its operational limits.
+
+### Security
+**How can monitoring practices keep your system safe?**
+
+- You can automate alerts when there are too many failed authentication attempts 
+- 
+
+### The Commands
+
 

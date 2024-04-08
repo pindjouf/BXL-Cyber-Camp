@@ -8,10 +8,15 @@ The goal for this one is to research how & what to monitor in a Linux system. We
 - What are the main areas of concern when monitoring a system? (EX: CPU load, disk usage, ...)
 - How can you check what are the most memory intensive running processes ?
 - What are log files? Where can you find them on a typical Linux system ?
+    - in `/var/log`
 - How can you check who where the last connected users, what they did, when they left ?
+    - a
 - What are the different metrics of health and performance of a system ?
+    - 
 - How can you check the uptime of a machine ?
+    - With the `uptime` command
 - How can you assess the network traffic ?
+    - 
 
 ### The second part
 
