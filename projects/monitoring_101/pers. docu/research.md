@@ -38,7 +38,7 @@ You can omit the `--state=running` flag if you want to see all the services.
 ### Security
 **How can monitoring practices keep your system safe?**
 
-- You can automate alerts when there are too many failed authentication attempts 
+- Automate alerts when there are too many failed authentication attempts.
 - 
 
 ### The Commands
