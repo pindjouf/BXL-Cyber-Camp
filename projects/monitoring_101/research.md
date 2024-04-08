@@ -11,7 +11,6 @@ So having random outages and services not working is not something you can affor
 If you have no way of pinpointing/understanding a problem, there's no way you're ever going to fix it.\
 So monitoring allows us to have records of what causes problems in order to fix them/prevent them.
 
-It could be something wrong with the machine (faulty process) or with what a user did/didn't do.
 
 We don't have unlimited resources so making sure we use them as efficiently as possible is of the utmost importance.
 
