@@ -13,7 +13,12 @@ So monitoring allows us to have records of what causes problems in order to fix 
 
 It could be something wrong with the machine (faulty process) or with what a user did/didn't do.
 
-We don't have unlimited resources so making sure we use them as efficiently as possible is 
+We don't have unlimited resources so making sure we use them as efficiently as possible is of the utmost importance.
+
+**Simple example (resource allocation)**:\
+If your streaming company has 100 kbps upload speed, and from previously acquired data you know that 80 of those should be available at all times because that is what your customer base needs from your servers on average.\
+So all your other services (combined) should never go over 20 kbps or you're gonna be decreasing the quality of your service and losing customers as a result of that.
+
 
 ### How to take care of your system
 Your services should stay available, reliable and secure.
