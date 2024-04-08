@@ -16,9 +16,14 @@ It could be something wrong with the machine (faulty process) or with what a use
 We don't have unlimited resources so making sure we use them as efficiently as possible is of the utmost importance.
 
 **Simple example (resource allocation)**:\
-If your streaming company has 100 kbps upload speed, and from previously acquired data you know that 80 of those should be available at all times because that is what your customer base needs from your servers on average.\
+If your media streaming company has 100 kbps upload speed, and from previously acquired data you know that 80 of those should be available at all times because that is what your customer base needs from your servers on average.\
 So all your other services (combined) should never go over 20 kbps or you're gonna be decreasing the quality of your service and losing customers as a result of that.
 
+
+**Simple example (system load)**\
+The same streaming company has been growing lately.\
+After looking at the graphs on your system monitoring tool you notice that the the system load is getting ridiculously high, the hardware you currently have is never gonna be enough if your company keeps growing at this rate. \
+Thanks to that data you will be able to prevent your service being down in the future due to your system failing.
 
 ### How to take care of your system
 Your services should stay available, reliable and secure.
@@ -38,9 +43,13 @@ You can omit the `--state=running` flag if you want to see all the services.
 ### Security
 **How can monitoring practices keep your system safe?**
 
-- Automate alerts when there are too many failed authentication attempts.
-- 
+- Setup alerts for when there are too many failed authentication attempts.
+- Alerts for failed backups/automated reports.
 
-### The Commands
+
+### Report draft on osmc-Edmund (Media server)
+
+
+
 
 
