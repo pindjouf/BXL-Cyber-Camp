@@ -10,7 +10,7 @@ The goal for this one is to research how & what to monitor in a Linux system. We
 - How can you check what are the most memory intensive running processes ?
     - With `htop`.
 - What are log files? Where can you find them on a typical Linux system ?
-    - They're the history of your machine in a file. You can find them in `/var/log`.
+    - They're the history of your machine and you can you can find them in `/var/log`.
 - How can you check who where the last connected users, what they did, when they left ?
     - You're mostly gonna find this data in the logs like in /var/log/auth.log for example. There's also commands like `w`, `lastlog`, `last`.
 - What are the different metrics of health and performance of a system ?
