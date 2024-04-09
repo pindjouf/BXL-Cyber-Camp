@@ -42,7 +42,7 @@ Your services should stay available, reliable and secure.
 
 - With `systemctl --type=service --state=running`.\
 You can omit the `--state=running` flag if you want to see all the services.
-
+- Another option for displaying services is `nmap`. This is oriented more towards your network but is worth mentionning if it is a machine other than your own that you want to monitor.
 
 ### Reliability 
 **How do you make sure that your services are reliable?**
@@ -90,6 +90,9 @@ To get a general overview of your machine you can use tools like the classic `to
 
 Most of the `top` variations have specific use cases like `PowerTOP` diagnoses issues with the Linux system’s power consumption and power management for example.\
 But since they all come **from** `top` I feel comfortable putting them in this section
+
+### Network-specific
+- Tools like `btop/bpytop` can give you some insight into your network interfaces' Download and Upload usage.
 
 ### User-specific
 - `w` + example of what it does: 
