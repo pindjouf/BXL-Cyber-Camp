@@ -42,7 +42,7 @@ Your services should stay available, reliable and secure.
 
 - With `systemctl --type=service --state=running`.\
 You can omit the `--state=running` flag if you want to see all the services.
-- Another option for displaying services is `nmap`. This is oriented more towards your network but is worth mentionning if it is a machine other than your own that you want to monitor.
+- Another option for displaying services is `nmap`. This is oriented more towards your network but is worth mentionning if it is a machine other than your own that you want to monitor. (It also works if you scan your machine)
 
 ### Reliability 
 **How do you make sure that your services are reliable?**
@@ -153,7 +153,7 @@ We're gonna be investigating to see if there is any over-consumption of its reso
 
 ### The machine
 
-I'm gonna be monitoring a remote osmc machine.\
+I'm gonna be monitoring a remote machine quite similar to the one in this repo [mediapiratestack](https://github.com/pindjouf/mediapiratestack).\
 Which has the following services running:
 
 - wireguard vpn
