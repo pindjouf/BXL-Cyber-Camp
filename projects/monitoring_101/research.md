@@ -164,7 +164,10 @@ Which has the following services running:
 - kodi (media center)
 - monitorix
 
+## Things that still need to be done
 ### Automatic Email Reports
 Before we start checking the performance of the server I want to set something up to know who is logging into my server
 
 By getting alerts (e-mails) Everytime there is a login into the server.
+
+[docs](https://www.monitorix.org/documentation.html#67)
