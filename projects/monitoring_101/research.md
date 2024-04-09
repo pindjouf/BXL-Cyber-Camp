@@ -94,6 +94,21 @@ But since they all come **from** `top` I feel comfortable putting them in this s
 ### Network-specific
 - Tools like `btop/bpytop` can give you some insight into your network interfaces' Download and Upload usage.
 
+- `nethogs` Can show you how much bandwidth individual services are using with the advantage of whoing you the PID directly so you can remove anything that seems suspicious or out of place.\
+**example of what it looks like:**
+```
+NetHogs version 0.8.5-2+b1
+
+    PID USER     PROGRAM                                                                     DEV        SENT      RECEIVED
+    675 osmc     /usr/bin/transmission-daemon                                                eth0      210.506       9.652 KB/sec
+    818 osmc     sshd: osmc@pts/0                                                            wg0        27.259       1.070 KB/sec
+      ? root     192.168.129.5:57920-140.82.112.21:443                                                   0.013       0.013 KB/sec
+      ? root     10.238.3.2:57920-140.82.112.21:443                                                      0.000       0.010 KB/sec
+      ? root     140.82.112.21:443-10.238.3.2:57920                                                      0.000       0.010 KB/sec
+
+  TOTAL                                                                                                237.778      10.754 KB/sec
+```
+
 ### User-specific
 - `w` + example of what it does: 
 ```
