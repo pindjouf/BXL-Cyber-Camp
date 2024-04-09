@@ -164,6 +164,10 @@ Which has the following services running:
 - kodi (media center)
 - monitorix
 
+### Footnotes
+
+- *Some IPs, services & network interfaces have been altered to protect user privacy.*
+
 ## Things that still need to be done
 ### Automatic Email Reports
 Before we start checking the performance of the server I want to set something up to know who is logging into my server
@@ -171,7 +175,3 @@ Before we start checking the performance of the server I want to set something u
 By getting alerts (e-mails) Everytime there is a login into the server.
 
 [docs](https://www.monitorix.org/documentation.html#67)
-
-### Footnotes
-
-- *Some IPs, services & network interfaces have been altered to protect user privacy.*
