@@ -100,11 +100,11 @@ But since they all come **from** `top` I feel comfortable putting them in this s
 NetHogs version 0.8.5-2+b1
 
     PID USER     PROGRAM                                                                     DEV        SENT      RECEIVED
-    675 osmc     /usr/bin/transmission-daemon                                                eth0      210.506       9.652 KB/sec
-    818 osmc     sshd: osmc@pts/0                                                            wg0        27.259       1.070 KB/sec
-      ? root     192.168.129.5:57920-140.82.112.21:443                                                   0.013       0.013 KB/sec
-      ? root     10.238.3.2:57920-140.82.112.21:443                                                      0.000       0.010 KB/sec
-      ? root     140.82.112.21:443-10.238.3.2:57920                                                      0.000       0.010 KB/sec
+    675 rbfi     /usr/bin/transmission-daemon                                                eth0      210.506       9.652 KB/sec
+    818 rbfi     sshd: rbfi@pts/0                                                            nw0        27.259       1.070 KB/sec
+      ? root     192.168.29.15:5920-200.82.112.221:48                                                   0.013       0.013 KB/sec
+      ? root     10.28.9.12:5920-200.82.112.221:48                                                      0.000       0.010 KB/sec
+      ? root     200.82.112.221:48-10.28.9.12:5920                                                      0.000       0.010 KB/sec
 
   TOTAL                                                                                                237.778      10.754 KB/sec
 ```
@@ -113,28 +113,28 @@ NetHogs version 0.8.5-2+b1
 - `w` + example of what it does: 
 ```
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-osmc     pts/0    10.238.3.2       14:08    2.00s  0.07s  0.01s w
+rbfi     pts/0    10.28.9.12       14:08    2.00s  0.07s  0.01s w
 ```
 - `lastlog` + example of what it does:
 ```
 Username         Port     From             Latest
-osmc             pts/0    10.238.3.2       Tue Apr  9 14:08:23 +0200 2024
+rbfi             pts/0    10.28.9.12       Tue Apr  9 14:08:23 +0200 2024
 ```
 - `last` + example of what it does:
 ```
-osmc     pts/0        10.238.3.2       Tue Apr  9 14:55   still logged in
-osmc     pts/0        10.238.3.2       Tue Apr  9 14:08 - 14:55  (00:47)
-osmc     pts/0        10.238.3.2       Tue Apr  9 14:07 - 14:08  (00:00)
-osmc     pts/0        10.238.3.2       Tue Apr  9 14:05 - 14:06  (00:01)
-osmc     pts/0        10.238.3.2       Tue Apr  9 14:02 - 14:03  (00:00)
-osmc     pts/0        10.238.3.2       Tue Apr  9 14:00 - 14:01  (00:01)
-osmc     pts/0        10.238.3.2       Tue Apr  9 12:21 - 12:21  (00:00)
-osmc     pts/0        10.238.3.2       Tue Apr  9 12:20 - 12:20  (00:00)
-osmc     pts/0        10.238.3.2       Tue Apr  9 12:20 - 12:20  (00:00)
-osmc     pts/0        10.238.3.2       Tue Apr  9 12:19 - 12:19  (00:00)
-osmc     pts/0        10.238.3.2       Tue Apr  9 10:35 - 10:39  (00:03)
-reboot   system boot  5.15.92-1-osmc   Thu Jan  1 01:00   still running
-reboot   system boot  5.15.92-1-osmc   Thu Jan  1 01:00 - 23:12 (19821+21:12)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 14:55   still logged in
+rbfi     pts/0        10.28.9.12       Tue Apr  9 14:08 - 14:55  (00:47)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 14:07 - 14:08  (00:00)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 14:05 - 14:06  (00:01)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 14:02 - 14:03  (00:00)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 14:00 - 14:01  (00:01)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 12:21 - 12:21  (00:00)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 12:20 - 12:20  (00:00)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 12:20 - 12:20  (00:00)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 12:19 - 12:19  (00:00)
+rbfi     pts/0        10.28.9.12       Tue Apr  9 10:35 - 10:39  (00:03)
+reboot   system boot  5.15.92-1-rbfi   Thu Jan  1 01:00   still running
+reboot   system boot  5.15.92-1-rbfi   Thu Jan  1 01:00 - 23:12 (19821+21:12)
 
 wtmp begins Thu Jan  1 01:00:03 1970
 ```
@@ -145,7 +145,7 @@ You will get pretty much the same KPIs from most monitoring tools, so knowing wh
 This is the difference between information and intel.\
 Raw data means nothing without a goal.
 
-## Report draft on osmc-Edmund (Media server)
+## Report draft on a media server
 
 ### Preamble
 The goal is to keep this machine as low-cost, low-consumption as possible since it only has 1-2 client(s) and is supposed to be mostly idle.\
