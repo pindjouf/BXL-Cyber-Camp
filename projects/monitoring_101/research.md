@@ -174,9 +174,9 @@ Which has the following services running:
 - *Some IPs, services & network interfaces have been altered to protect user privacy.*
 
 ## Things that still need to be done
-### Automatic Email Reports
-Before we start checking the performance of the server I want to set something up to know who is logging into my server
-
-By getting alerts (e-mails) Everytime there is a login into the server.
-
+- ### Automatic Email Reports
+Before we start checking the performance of the server I want to set something up to know who is logging into my server, by getting alerts (e-mails) Everytime there is a login into the server.\
 [docs](https://www.monitorix.org/documentation.html#67)
+
+- ### Report document
+
