@@ -55,6 +55,8 @@ You can omit the `--state=running` flag if you want to see all the services.
 
 - Setup alerts for when there are too many failed authentication attempts.
 - Alerts for failed backups/automated reports.
+- Kill processes that are not meant to run.
+
 
 ### What to monitor
 
@@ -84,10 +86,19 @@ But remember it all depends on the type of organization and server(s) you have.
 ## The commands
 
 ### General
+To get a general overview of your machine you can use tools like the classic `top` and all its variations like: `htop`, `btop`, `atop`, etc...
+
+Most of the `top` variations have specific use cases like `PowerTOP` diagnoses issues with the Linux system’s power consumption and power management for example.\
+But since they all come **from** `top` I feel comfortable putting them in this section
 
 ### User-specific
-
-
+- `w` + example of what it does: 
+```
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+osmc     pts/0    10.238.3.2       14:08    2.00s  0.07s  0.01s w
+```
+- `lastlog` 
+- `last` 
 
 ### Last notes
 
