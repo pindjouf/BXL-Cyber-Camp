@@ -162,3 +162,9 @@ Which has the following services running:
 - lidarr
 - transmission (torrenting client)
 - kodi (media center)
+- monitorix
+
+### Automatic Email Reports
+Before we start checking the performance of the server I want to set something up to know who is logging into my server
+
+By getting alerts (e-mails) Everytime there is a login into the server.
