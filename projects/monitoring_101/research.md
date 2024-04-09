@@ -139,6 +139,11 @@ reboot   system boot  5.15.92-1-rbfi   Thu Jan  1 01:00 - 23:12 (19821+21:12)
 wtmp begins Thu Jan  1 01:00:03 1970
 ```
 
+### Worthy Mentions
+
+- `df` to see all the drives that are mounted on your machine. This can be useful if your machine relies on data stored on an external drive for example. If not properly setup it doesn't get mounted automatically on boot. (Although this specific issue can be fixed like [this](https://unix.stackexchange.com/questions/654952/consistent-auto-mount-of-external-hard-drive))
+
+
 ### Last notes
 
 You will get pretty much the same KPIs from most monitoring tools, so knowing what matters most for **your** specific use cases is gonna be key.\
