@@ -102,7 +102,7 @@ osmc     pts/0    10.238.3.2       14:08    2.00s  0.07s  0.01s w
 Username         Port     From             Latest
 osmc             pts/0    10.238.3.2       Tue Apr  9 14:08:23 +0200 2024
 ```
-- `last` +example of what it does:
+- `last` + example of what it does:
 ```
 osmc     pts/0        10.238.3.2       Tue Apr  9 14:55   still logged in
 osmc     pts/0        10.238.3.2       Tue Apr  9 14:08 - 14:55  (00:47)
