@@ -101,4 +101,14 @@ Raw data means nothing without a goal.
 The goal is to keep this machine as low-cost, low-consumption as possible since it only has 1-2 client(s) and is supposed to be mostly idle.\
 We're gonna be investigating to see if there is any over-consumption of its resources and try to determine why they're happening.
 
+### The machine
 
+I'm gonna be monitoring a remote osmc machine.\
+Which has the following services running:
+
+- wireguard vpn
+- radarr
+- sonarr
+- lidarr
+- transmission (torrenting client)
+- kodi (media center)

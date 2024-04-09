@@ -28,15 +28,4 @@ This is the practical part, where we write reports on the state of the machine w
 
 Be able to keep track of the state of machines, troubleshoot them to understand errors and in the best cases prevent issues before they even happen!
 
-### The machine
-
-I'm gonna be monitoring a remote osmc machine.\
-Which has the following services running:
-
-- wireguard vpn
-- radarr
-- sonarr
-- lidarr
-- transmission (torrenting client)
-- kodi (media center)
 
