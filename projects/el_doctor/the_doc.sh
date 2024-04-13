@@ -29,9 +29,7 @@ systemctl --type=service | grep -E -i 'lidarr|sonarr|radarr|transmission|jackett
 # Internet Connectivity
 echo ""
 echo "## This Month's Bandwidth Usage
-USED		LEFT
-4.20 Tb		1.80 Tb
-"
+Bandwidth Usage: $(vnstat -m | grep `date +%b` | awk '{print $8, $9}') / 6 TB "
 
 # Internet Connectivity
 echo ""
@@ -41,23 +39,23 @@ ping -c 1 google.com &> /dev/null && echo "  Status: Connected" || echo "  Statu
 # IP Addresses
 echo ""
 echo "## IP Addresses"
-echo "  Public IP: $(curl -s ipecho.net/plain;echo)"
-echo "  Private IP: $(/sbin/ip -o -4 addr list eth0 | awk '{print $4}' | cut -d/ -f1)"
+echo "  Local IP: $(neofetch | grep Local | awk '{print $3}')"
+# echo "  Public IP: $(curl -s https://ipchicken.com | egrep -o '([[:digit:]]{1,3}\.){3}[[:digit:]]{1,3}')"
+echo "  Public IP: $(curl -s https://ipaddress.sh)"
 
 # DNS Server
 echo ""
 echo "## DNS Server"
 cat /etc/resolv.conf | grep nameserver | awk '{print $2}'
 
-# Network Services
-echo ""
-echo "## Network Services"
-sudo ss -tlnp | tail -n+2 | tr -s ' ' | cut -d ' ' -f 1,4,7 | column -ts ' '
-
 # Memory Usage
 echo ""
 echo "## Memory Usage"
-egrep --color 'Mem|Cache|Swap' /proc/meminfo
+memused=$(neofetch | grep Memory | awk '{print $2}' | sed 's/[A-Za-z]*//g')
+memtot=$(neofetch | grep Memory | awk '{print $4}' | sed 's/[A-Za-z]*//g')
+# result=`expr $memtot - $memused / $memtot * 100`
+echo "Memory: $(neofetch | grep Memory | awk '{print $2, $3, $4}')"
+# echo "Left: $result%"
 
 # CPU Usage
 echo ""
