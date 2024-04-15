@@ -14,3 +14,4 @@ By the way here are a few familiar commands and their alias in powershell:
 - `cd` -> `Set-Location`
 - `mv` -> `Move-Item`
 - `pwd` -> `Get-Location`
+- `mkdir` -> `New-Item -ItemType Directory`
