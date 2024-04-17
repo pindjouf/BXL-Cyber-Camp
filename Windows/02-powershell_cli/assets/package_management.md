@@ -13,8 +13,11 @@ It's time to start installing softwares and keep them updated. We will see how t
 - Manage Packages
     - Install `Chocolatey`
     - Install `VLC` from `Chocolatey`
+        - `choco install`
     - Upgrade `VLC` to the latest version (it should already be but it's your first use)
+        - `choco upgrade`
     - Remove the `VLC` package using `Chocolatey`
+        - `choco uninstall`
     - Could you use `Chocolatey` on already installed software? How?
 - Manage Windows Features
     - Get installed windows features with the command `Get-WindowsFeature`
