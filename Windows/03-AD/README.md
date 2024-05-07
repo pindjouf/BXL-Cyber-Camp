@@ -4,15 +4,15 @@
 
 **2. Active Directory Setup:**
 
-- [ ] Promote the Domain Controller VM to a domain controller.
-- [ ] Create a new Active Directory forest and domain structure.
-- [ ] Configure DNS service on the Domain Controller VM.
-- [ ] Create organizational units (OUs) for user and group management.
-- [ ] Join the Server VM and Client VMs to the domain.
+- [x] Promote the Domain Controller VM to a domain controller.
+- [x] Create a new Active Directory forest and domain structure.
+- [x] Configure DNS service on the Domain Controller VM.
+- [x] Create organizational units (OUs) for user and group management.
+- [x] Join the Server VM and Client VMs to the domain.
 
 **3. User Management with Alice and Bob:**
 
-- [ ] Create user accounts within Active Directory:
+- [x] Create user accounts within Active Directory:
   - Alice (Administrator, assigned to dedicated OU)
   - Bob (Standard User with access to `/Users/Bob` folder, assigned to specific OU)
 - [ ] Leverage Group Policy Objects (GPOs) to configure user settings based on OUs.
@@ -22,13 +22,13 @@
 
 **4.1 IIS for Alice:**
 
-- [ ] Install and configure [IIS](https://www.iis.net/overview) on the Server VM for Alice's specific web application/service.
+- [x] Install and configure [IIS](https://www.iis.net/overview) on the Server VM for Alice's specific web application/service.
 - [ ] Apply robust security best practices (permissions, WAFs, considering Alice's admin role).
 - [ ] Test the web application and ensure accessibility for authorized users in the domain.
 
 **4.2 DNS:**
 
-- [ ] Verify DNS functionality within the Active Directory domain environment.
+- [x] Verify DNS functionality within the Active Directory domain environment.
 - [ ] Configure conditional forwarders or external DNS integration if needed.
 
 **4.3 DHCP:**
