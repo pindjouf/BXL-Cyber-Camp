@@ -39,6 +39,21 @@ A custom Amazon login page will be created to mimic the authentic Amazon login i
 
 6. **Analysis**: Analyze captured credentials and assess the success of the campaign.
 
+### Structure
+
+/campaign
+|
+|-- /alice
+|   -- alice.eml
+|
+|-- /bob
+|   -- bob.eml
+|
+-- README.md
+-- index.html
+-- store.html
+
+
 ### Footer / Useful Additions / Things to be done
 
 - Make the links redirect to real places
