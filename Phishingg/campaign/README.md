@@ -1,4 +1,4 @@
-# Phishing Campaign (Minimum Viable Product)
+# Phishing Campaign
 
 ## Overview
 
