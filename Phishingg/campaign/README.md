@@ -4,6 +4,9 @@
 
 This phishing campaign is designed to target individuals with specific interests, namely Bob, who loves dogs, and Alice, who loves cars. The campaign will utilize tailored emails to appeal to their interests, leading them to click on a fake Amazon login page, where they will be prompted to enter their credentials. The ultimate goal is to acquire their login credentials through the fake page.
 
+### *Things to keep in mind*
+This is an MVP (Minimum Viable Product) so the goal is mostly to get something out there that works. See footer for a list of tasks that would make the product better.
+
 ## Target Audience
 
 - **Bob**: A dog lover who owns a bull terrier named "Shimi". Bob's affinity for his dog will be leveraged in the email content to increase the likelihood of engagement.
@@ -35,6 +38,11 @@ A custom Amazon login page will be created to mimic the authentic Amazon login i
 5. **Credential Capture**: Capture login credentials entered on the fake Amazon login page using a web hook.
 
 6. **Analysis**: Analyze captured credentials and assess the success of the campaign.
+
+### Footer / Useful Additions
+
+- ...
+- ...
 
 ## Disclaimer
 
