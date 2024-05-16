@@ -66,6 +66,7 @@ A custom Amazon login page will be created to mimic the authentic Amazon login i
 - Make form go to dog page or car page based on where the user came from.
 - Store the email & passwords in a database/text file
 - Get an actual email address to make the phishing more legit (although just for demonstration purposes)
+- Host the website for a live demo (although this repo can be cloned and tested locally)
 
 ## Disclaimer
 
