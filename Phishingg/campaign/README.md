@@ -5,7 +5,7 @@
 This phishing campaign is designed to target individuals with specific interests, namely Bob, who loves dogs, and Alice, who loves cars. The campaign will utilize tailored emails to appeal to their interests, leading them to click on a fake Amazon login page, where they will be prompted to enter their credentials. The ultimate goal is to acquire their login credentials through the fake page.
 
 ### *Things to keep in mind*
-This is an MVP (Minimum Viable Product) so the goal is mostly to get something out there that works in my local environment (for now). See footer for a list of tasks that would make the product better.
+This is an MVP (Minimum Viable Product) so the goal is mostly to get something out there (that works in my local environment for now). See footer for a list of tasks that would make the product better.
 
 ## Target Audience
 
