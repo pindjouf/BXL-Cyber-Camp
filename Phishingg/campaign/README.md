@@ -56,7 +56,7 @@ A custom Amazon login page will be created to mimic the authentic Amazon login i
 
 ### Footer / Useful Additions / Things to be done
 
-- Make the links redirect to real places
+- Make the links in the emails redirect to an actual page
 - Git push the actual .eml file and not just the html
 
 ## Disclaimer
