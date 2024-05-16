@@ -63,7 +63,7 @@ A custom Amazon login page will be created to mimic the authentic Amazon login i
 ### Footer / Useful Additions / Things to be done
 
 - Make the links in the emails redirect to an actual page and not just ../index.html
-
+- Make form go to dog page or car page based on where the user came from.
 ## Disclaimer
 
 **Important**: This phishing campaign is for educational purposes only and must not be used for any malicious intent. Engaging in unauthorized access to computer systems or data is illegal and unethical. Always ensure compliance with applicable laws and regulations.
