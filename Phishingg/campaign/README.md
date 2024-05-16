@@ -41,17 +41,20 @@ A custom Amazon login page will be created to mimic the authentic Amazon login i
 
 ### Structure
 
-/campaign
-|
-|-- /alice
-|   -- alice.eml
-|
-|-- /bob
-|   -- bob.eml
-|
--- README.md
--- index.html
--- store.html
+    /campaign
+    |
+    |-- /alice
+    |   -- alice.eml
+    |
+    |-- /asssets
+    |   -- screenshots.md
+    |
+    |-- /bob
+    |   -- bob.eml
+    |
+    -- README.md
+    -- index.html
+    -- store.html
 
 
 ### Footer / Useful Additions / Things to be done
