@@ -5,4 +5,4 @@
 
 The unsuspecting victim would get a mail such as this one recommending articles for their favorite hobby!
 
-![text](mail.jpeg)
+![text](mail2.jpeg)
