@@ -20,13 +20,25 @@
 
     - **Summary:** Where I learned about the classic client-server architecture by setting up a Linux server and a workstation. The server, without a GUI, was configured to run essential services including DHCP (isc-dhcp-server) for automatic IP addressing, DNS (bind) for resolving internal resources and redirecting external ones, and HTTP + MariaDB + GLPI for web-based IT management. I implemented weekly backups of configuration files into a single compressed archive and enabled SSH for remote management. Optionally, backups were stored on a separate disk partition, mounted only during the backup process.
 
-- #### [Monitoring 101](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Linuxx/projects/monitoring_101)
+- #### And [Monitoring 101](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Linuxx/projects/monitoring_101)
 
     - **Summary:** In the Monitoring 101 project, I learned the essential aspects of monitoring a Linux system to ensure service availability, reliability, and security. The project involved both theoretical research and practical application.
 
 ### 🪟 Windows
 
 ### 🎣 Phishing
+
+- #### Through reports like [these](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Phishingg/reports).
+
+In this project, I gained valuable skills in identifying phishing attempts and understanding phishing tactics through hands-on experience.
+
+I learned to analyze `.eml` files to detect signs of phishing, such as suspicious email addresses, misleading links, and anomalies in email headers. Additionally, I developed the ability to write comprehensive reports detailing the findings from these analyses, highlighting red flags and providing recommendations for handling potential phishing emails.
+
+#### And my [campaign](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Phishingg/campaign)
+
+I also created a phishing campaign to understand how attackers operate. This involved developing a fake Amazon login page and crafting a convincing email designed to appear as though it came from Amazon. By using personalized data to tailor the email content, I learned how attackers increase the effectiveness of their phishing attempts.
+
+Through this project, I enhanced my ability to recognize, report, and defend against phishing attacks, gaining insights into both detection and prevention strategies.
 
 ### 👨‍💻 Programming
 
