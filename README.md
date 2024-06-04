@@ -34,7 +34,7 @@ In this project, I gained valuable skills in identifying phishing attempts and u
 
 I learned to analyze `.eml` files to detect signs of phishing, such as suspicious email addresses, misleading links, and anomalies in email headers. Additionally, I developed the ability to write comprehensive reports detailing the findings from these analyses, highlighting red flags and providing recommendations for handling potential phishing emails.
 
-#### And my [campaign](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Phishingg/campaign)
+- #### And my [campaign](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Phishingg/campaign)
 
 I also created a phishing campaign to understand how attackers operate. This involved developing a fake Amazon login page and crafting a convincing email designed to appear as though it came from Amazon. By using personalized data to tailor the email content, I learned how attackers increase the effectiveness of their phishing attempts.
 
