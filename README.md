@@ -6,17 +6,17 @@
 
 ### 🌐 Networking Fundamentals
 
-- #### Through projects like [Small Network](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Networkk/Small-Network).
+- #### Through projects like [Small Network](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Networkk/Small-Network)
 
     - **Summary:** Created a functional network using Cisco 2960 switch, three Windows 10 PCs, Cisco 1841 router, and web & DNS servers. The network topology was designed using Cisco Packet Tracer to facilitate current operations and accommodate future expansion.
 
-- #### And [Secure Network Design](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Networkk/secure_network_design) 
+- #### And [Secure Network Design](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Networkk/secure_network_design)
 
     - **Summary:** Adopted a subnetting strategy where the first usable IP in each subnet was assigned to the gateway, static IPs were reserved for permanent devices, and DHCP was used for dynamic IP assignment to workstations. Despite simulation constraints, implemented security protocols like RADIUS and TACACS+ to manage network access, ensuring robust protection and clear segmentation.
 
 ### 🐧 Linux
 
-- #### Through projects like [Client-Server Architecture](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Linuxx/projects/linux_client_server_project).
+- #### Through projects like [Client-Server Architecture](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Linuxx/projects/linux_client_server_project)
 
     - **Summary:** Where I learned about the classic client-server architecture by setting up a Linux server and a workstation. The server, without a GUI, was configured to run essential services including DHCP (isc-dhcp-server) for automatic IP addressing, DNS (bind) for resolving internal resources and redirecting external ones, and HTTP + MariaDB + GLPI for web-based IT management. I implemented weekly backups of configuration files into a single compressed archive and enabled SSH for remote management. Optionally, backups were stored on a separate disk partition, mounted only during the backup process.
 
@@ -28,7 +28,7 @@
 
 ### 🎣 Phishing
 
-- #### Through reports like [these](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Phishingg/reports).
+- #### Through reports like [these](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Phishingg/reports)
 
 In this project, I gained valuable skills in identifying phishing attempts and understanding phishing tactics through hands-on experience.
 
