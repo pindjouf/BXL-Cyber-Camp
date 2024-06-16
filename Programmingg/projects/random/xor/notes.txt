@@ -1,0 +1,3 @@
+How to make list length equal for operation?
+
+
