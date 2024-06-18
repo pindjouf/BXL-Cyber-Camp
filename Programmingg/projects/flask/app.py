@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import sqlite3
-import datetime
+from datetime import timedelta, datetime
 from dotenv import load_dotenv
 import os
 import html
@@ -10,6 +10,7 @@ app = Flask(__name__)
 load_dotenv()
 
 db = os.getenv('DB')
+now = datetime.now()
 
 def sanitize(input_str):
     sanitized = html.escape(input_str)
@@ -35,7 +36,7 @@ def submit():
     cur = con.cursor()
 
     # Exec lil insert query
-    cur.execute("INSERT INTO contact VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, datetime('now'))", (firstname, lastname, email, country, message, gender, subject))
+    cur.execute("INSERT INTO contact VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?)", (firstname, lastname, email, country, message, gender, subject, now.strftime('%Y-%m-%d %H:%M:%S')))
 
     con.commit()
     con.close()
