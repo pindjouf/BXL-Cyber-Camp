@@ -1,43 +1,46 @@
-from datetime import datetime
-from flask import Flask
-from flask import render_template, request, g
+from flask import Flask, render_template, request
 import sqlite3
-from markupsafe import escape
+from datetime import timedelta, datetime
+from dotenv import load_dotenv
+import os
+import html
 
 app = Flask(__name__)
 
-DATABASE = 'databse'
+load_dotenv()
 
-def get_db():
-    db = getattr(g, '_database', None)
-    if db is None:
-        db = g._database = sqlite3.connect(DATABASE)
-    return db
+db = os.getenv('DB')
+now = datetime.now()
+
+def sanitize(input_str):
+    sanitized = html.escape(input_str)
+    return sanitized
 
 @app.route("/")
-def home():
-    return "<h1>Hackers Poullete</h1><br><a href='/contact'>Contact</a>"
-
-@app.route("/contact")
 def contact():
-    return render_template('contact.html')
+    return render_template("contact.html")
 
-@app.route("/submit", methods=['POST'])
+@app.post("/submit")
 def submit():
-    if request.method == 'POST':
-        first_name = request.form.get("first_name")
-        last_name = request.form.get("last_name")
-        email = request.form.get("email")
-        country = request.form.get("country")
-        message = request.form.get("message")
-        gender = request.form.get("gender")
-        subject = request.form.get("subject")
-        action = request.form.get("submit")
-        # now = str(datetime.now())
-        if action == 'submit':
-            get_db()
+    # Make vars and sanitize em
+    firstname = sanitize(request.form['first_name'])
+    lastname = sanitize(request.form['last_name'])
+    email = sanitize(request.form['email'])
+    country = sanitize(request.form['country'])
+    message = sanitize(request.form['message'])
+    gender = sanitize(request.form['gender'])
+    subject = sanitize(request.form['subject'])
 
-    return f"Hello, {escape(first_name)}!"
+    # Connect to db
+    con = sqlite3.connect(str(db))
+    cur = con.cursor()
+
+    # Exec lil insert query
+    cur.execute("INSERT INTO contact VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?)", (firstname, lastname, email, country, message, gender, subject, now.strftime('%Y-%m-%d %H:%M:%S')))
+
+    con.commit()
+    con.close()
+    return '<a href="../"><-- Go back</a><br>What up perro I got your data :D'
 
 if __name__ == "__main__":
     app.run()
