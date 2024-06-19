@@ -4,6 +4,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 import os
 import html
+import bleach
 
 app = Flask(__name__)
 
@@ -14,7 +15,8 @@ now = datetime.now()
 
 def sanitize(input_str):
     sanitized = html.escape(input_str)
-    return sanitized
+    super_sanitized = bleach.clean(sanitized)
+    return super_sanitized
 
 @app.route("/")
 def contact():
