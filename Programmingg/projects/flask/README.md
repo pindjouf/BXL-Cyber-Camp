@@ -72,8 +72,3 @@ This repository contains a simple web application built with Flask that provides
 2. Open your web browser and go to `http://127.0.0.1:5000/` to access the contact form.
 
 3. Fill out the form and submit it. The data will be sanitized and stored in the database.
-
-## Code Explanation
-
-### Imports and Initialization
-
