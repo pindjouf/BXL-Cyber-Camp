@@ -70,15 +70,6 @@ This project allowed me to apply my programming skills to solve "*real-world*" p
 
 ## What I'm working on
 
-### ⚡SC-900
-
-I am currently preparing for the SC-900 certification, focusing on understanding the fundamentals of Microsoft Security, Compliance, and Identity (SCI). This involves gaining knowledge in several key areas:
-
-- Concepts of Security, Compliance, and Identity (SCI): Understanding the core principles and practices that underpin Microsoft's approach to protecting data and managing compliance.
-- Microsoft Identity and Access Management Solutions: Learning about Azure Active Directory (Azure AD) and how it provides secure access to resources.
-- Microsoft Security Solutions: Exploring various security tools and solutions within Microsoft 365 and Azure, including Microsoft Defender, security management, and endpoint security.
-- Microsoft Compliance Solutions: Studying how Microsoft solutions help organizations meet regulatory requirements and manage risks related to data privacy and protection.
-
-My goal is to gain a solid understanding of these concepts to enhance my cybersecurity skillset and improve my ability to protect organizational assets using Microsoft technologies.
+### 👨‍💻 Programming
 
 ### Making this README concise and complete
