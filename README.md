@@ -18,7 +18,7 @@
 
 - #### Through projects like [Client-Server Architecture](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Linuxx/projects/linux_client_server_project)
 
-    - **Summary:** Where I learned about the classic client-server architecture by setting up a Linux server and a workstation. The server, without a GUI, was configured to run essential services including DHCP (isc-dhcp-server) for automatic IP addressing, DNS (bind) for resolving internal resources and redirecting external ones, and HTTP + MariaDB + GLPI for web-based IT management. I implemented weekly backups of configuration files into a single compressed archive and enabled SSH for remote management. Optionally, backups were stored on a separate disk partition, mounted only during the backup process.
+    - **Summary:** Where I learned about the classic client-server architecture by setting up a Linux server and a workstation. The server, without a GUI, was configured to run essential services including DHCP (isc-dhcp-server) for automatic IP addressing, DNS (bind) for resolving internal resources and redirecting external ones, and HTTP + MariaDB + GLPI for web-based IT management. I implemented weekly backups of configuration files into a single compressed archive and enabled SSH for remote management.
 
 - #### And [Monitoring 101](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Linuxx/projects/monitoring_101)
 
@@ -41,6 +41,30 @@ I also created a phishing campaign to understand how attackers operate. This inv
 Through this project, I enhanced my ability to recognize, report, and defend against phishing attacks, gaining insights into both detection and prevention strategies.
 
 ### 👨‍💻 Programming
+
+- #### Through projects like [hackers_poulette](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Programmingg/projects/flask)
+
+This project involved creating a backend solution for a company called Hackers Poulette™. This project not only enhanced my coding abilities but also deepened my understanding of web security practices.
+
+#### Skills Developed:
+
+- **Backend Development with Python**: This project required me to use Python to handle backend logic, which included understanding and implementing HTTP methods (POST and GET) to manage form submissions.
+- **Form Input Sanitization and Validation**: I learned to sanitize form inputs to prevent security vulnerabilities like XSS (Cross-Site Scripting) and SQL injection attacks. This involved using libraries such as `html` and `bleach` for sanitization.
+- **Database Interaction**: Safely inserting sanitized data into a SQLite database was a key part of this project, which helped me understand the importance of database security and query parameterization.
+- **Template Rendering**: Utilizing Flask's built-in functionalities to create dynamic HTML templates allowed me to render user input and error messages effectively.
+
+This project significantly enhanced my understanding of backend development, form handling, and security practices essential for web development.
+
+- #### And [vpnode](https://github.com/pindjouf/vpnode)
+
+This wasn't part of the course but I've decided to automate the process of creating new users for VPNs, and thanks to my newly acquired skills I was able to start working on this personal project
+
+#### Skills Developed:
+
+- **File Handling in Python**: I learned how to read and replace specific strings in files, which is crucial for automating configuration tasks. Especially on linux systems.
+- **Error Handling**: Implementing error handling mechanisms to catch and manage exceptions, preventing unexpected behavior and improving the robustness of the code.
+
+This project allowed me to apply my programming skills to solve "*real-world*" problems, reinforcing the concepts learned during the bootcamp and expanding my capabilities in automation and scripting.
 
 ### 🚩 CTF(s)
 
