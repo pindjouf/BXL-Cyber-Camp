@@ -30,21 +30,21 @@
 
 - #### Through reports like [these](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Phishingg/reports)
 
-In this project, I gained valuable skills in identifying phishing attempts and understanding phishing tactics through hands-on experience.
+    - In this project, I gained valuable skills in identifying phishing attempts and understanding phishing tactics through hands-on experience.
 
-I learned to analyze `.eml` files to detect signs of phishing, such as suspicious email addresses, misleading links, and anomalies in email headers. Additionally, I developed the ability to write comprehensive reports detailing the findings from these analyses, highlighting red flags and providing recommendations for handling potential phishing emails.
+    - I learned to analyze `.eml` files to detect signs of phishing, such as suspicious email addresses, misleading links, and anomalies in email headers. Additionally, I developed the ability to write comprehensive reports detailing the findings from these analyses, highlighting red flags and providing recommendations for handling potential phishing emails.
 
 - #### And my [campaign](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Phishingg/campaign)
 
-I also created a phishing campaign to understand how attackers operate. This involved developing a fake Amazon login page and crafting a convincing email designed to appear as though it came from Amazon. By using personalized data to tailor the email content, I learned how attackers increase the effectiveness of their phishing attempts.
+    - I also created a phishing campaign to understand how attackers operate. This involved developing a fake Amazon login page and crafting a convincing email designed to appear as though it came from Amazon. By using personalized data to tailor the email content, I learned how attackers increase the effectiveness of their phishing attempts.
 
-Through this project, I enhanced my ability to recognize, report, and defend against phishing attacks, gaining insights into both detection and prevention strategies.
+    - Through this project, I enhanced my ability to recognize, report, and defend against phishing attacks, gaining insights into both detection and prevention strategies.
 
 ### 👨‍💻 Programming
 
 - #### Through projects like [hackers_poulette](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Programmingg/projects/flask)
 
-This project involved creating a backend solution for a company called Hackers Poulette™. This project not only enhanced my coding abilities but also deepened my understanding of web security practices.
+    - This project involved creating a backend solution for a company called Hackers Poulette™. This project not only enhanced my coding abilities but also deepened my understanding of web security practices.
 
 #### Skills Developed:
 
@@ -53,18 +53,18 @@ This project involved creating a backend solution for a company called Hackers P
 - **Database Interaction**: Safely inserting sanitized data into a SQLite database was a key part of this project, which helped me understand the importance of database security and query parameterization.
 - **Template Rendering**: Utilizing Flask's built-in functionalities to create dynamic HTML templates allowed me to render user input and error messages effectively.
 
-This project significantly enhanced my understanding of backend development, form handling, and security practices essential for web development.
+    - This project significantly enhanced my understanding of backend development, form handling, and security practices essential for web development.
 
 - #### And [vpnode](https://github.com/pindjouf/vpnode)
 
-This wasn't part of the course but I've decided to automate the process of creating new users for VPNs, and thanks to my newly acquired skills I was able to start working on this personal project
+    - This wasn't part of the course but I've decided to automate the process of creating new users for VPNs, and thanks to my newly acquired skills I was able to start working on this personal project
 
 #### Skills Developed:
 
 - **File Handling in Python**: I learned how to read and replace specific strings in files, which is crucial for automating configuration tasks. Especially on linux systems.
 - **Error Handling**: Implementing error handling mechanisms to catch and manage exceptions, preventing unexpected behavior and improving the robustness of the code.
 
-This project allowed me to apply my programming skills to solve "*real-world*" problems, reinforcing the concepts learned during the bootcamp and expanding my capabilities in automation and scripting.
+    - This project allowed me to apply my programming skills to solve "*real-world*" problems, reinforcing the concepts learned during the bootcamp and expanding my capabilities in automation and scripting.
 
 ### 🚩 CTF(s)
 
