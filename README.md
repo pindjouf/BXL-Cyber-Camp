@@ -70,6 +70,6 @@
 
 ## What I'm working on
 
-### 👨‍💻 Programming
+- ### 👨‍💻 Programming
 
-### Making this README concise and complete
+- ### Making this README concise and complete
