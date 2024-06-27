@@ -13,6 +13,14 @@ load_dotenv()
 db = os.getenv('DB')
 now = datetime.now()
 
+def convertInput(string):
+    if string:
+        pretty_name = string.upper[0] + string.lower[1:]
+    else:
+        pass
+        return ""
+    return pretty_name
+
 def sanitize(input_str):
     sanitized = html.escape(input_str)
     super_sanitized = bleach.clean(sanitized)
@@ -25,13 +33,16 @@ def contact():
 @app.post("/submit")
 def submit():
     # Make vars and sanitize em
-    firstname = sanitize(request.form['first_name'])
-    lastname = sanitize(request.form['last_name'])
+    first = sanitize(request.form['first_name'])
+    last = sanitize(request.form['last_name'])
     email = sanitize(request.form['email'])
     country = sanitize(request.form['country'])
     message = sanitize(request.form['message'])
     gender = sanitize(request.form['gender'])
     subject = sanitize(request.form['subject'])
+
+    firstname = convertInput(first)
+    lastname = convertInput(last)
 
     # Connect to db
     con = sqlite3.connect(str(db))
