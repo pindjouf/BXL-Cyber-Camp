@@ -23,7 +23,7 @@ if len(plaintext) < len(secret_key):
         plaintext.insert(0, 0)
 
 elif len(secret_key) < len(plaintext):
-    result = len(plaintext) - len(plaintext)
+    result = len(plaintext) - len(secret_key)
     for i in range(result):
         secret_key.insert(0, 0)
 
