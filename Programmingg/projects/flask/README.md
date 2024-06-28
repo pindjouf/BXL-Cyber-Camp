@@ -22,8 +22,8 @@ This repository contains a simple web application built with Flask that provides
 1. Clone this repository:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/pindjouf/BXL-Cyber-Camp
+    cd BXL-Cyber-Camp/Programmingg/projects/flask
     ```
 
 2. Create and activate a virtual environment:
