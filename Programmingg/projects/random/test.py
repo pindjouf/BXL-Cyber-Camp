@@ -2,7 +2,7 @@ li = []
 names = ['bob', 'alice', 'john']
 length = len(li)
 
-print("This list has {} items". format(length))
+print(f"This list has {length} items")
 
 for name in names:
     li.append(names)
@@ -10,5 +10,5 @@ for name in names:
     print(string)
 
 lengthh = len(li)
-print("This list now has {} items". format(lengthh))
+print(f"This list now has {lengthh} items")
 
