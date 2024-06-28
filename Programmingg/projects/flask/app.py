@@ -21,6 +21,14 @@ def convertInput(string):
         return ""
     return pretty_name
 
+def convertEmail(email):
+    if email:
+        pretty_email = email.lower()
+    else:
+        pass
+        return ""
+    return pretty_email
+
 def sanitize(input_str):
     sanitized = html.escape(input_str)
     super_sanitized = bleach.clean(sanitized)
@@ -35,7 +43,7 @@ def submit():
     # Make vars and sanitize em
     first = sanitize(request.form['first_name'])
     last = sanitize(request.form['last_name'])
-    email = sanitize(request.form['email'])
+    mail = sanitize(request.form['email'])
     country = sanitize(request.form['country'])
     message = sanitize(request.form['message'])
     gender = sanitize(request.form['gender'])
@@ -43,7 +51,8 @@ def submit():
 
     firstname = convertInput(first)
     lastname = convertInput(last)
-
+    email = convertEmail(mail)
+    
     # Connect to db
     con = sqlite3.connect(str(db))
     cur = con.cursor()
