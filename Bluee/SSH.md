@@ -1,7 +1,7 @@
 # SSH
 
 ## The main idea: make your servers trust a central authority that clients get *approved* by.
-## Simple analogy: It's like new acquaintance trusts you because you got introduced by a mutual friend.
+### *Simple analogy: It's like a new acquaintance trusts you because you got introduced by a mutual friend.*
 
 ### High-level overview
 
