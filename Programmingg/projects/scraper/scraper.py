@@ -27,7 +27,7 @@ try:
     driver = webdriver.Firefox(service=service, options=options)
 
     # Make url "dynamic" to avoid err in GET request
-    today = datetime.now()  # Changed from date.today() to datetime.now()
+    today = datetime.now()
     checkin = (today + timedelta(days=1)).date()
     checkout = (today + timedelta(days=5)).date()
     url = f"https://www.hostelworld.com/pwa/wds/s?q=Chiang%20Mai,%20Thailand&country=Chiang%20Mai&city=Chiang%20Mai&type=city&id=831&from={checkin}&to={checkout}&guests=1&page=1&sort=lowestprice"
