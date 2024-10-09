@@ -67,7 +67,7 @@ You can find more details about this specific challenge and my approach in the d
 
 I'm actively developing *cryptoooor*, a file encryption web app and CLI written in Rust and WebAssembly. This project allows users to securely encrypt their files with ease, both from the browser and command line, providing a robust solution for modern file security needs.
 
-- ### 🔧 *From the Transistor to the Web Browser*
+- ### 🔧 [*From the Transistor to the Web Browser*](https://github.com/pindjouf/fromthetransistor)
 
 I'm also working on the *From the Transistor to the Web Browser* course, where I'm learning the modern computer stack from first principles. This journey involves building components like a UART, CPU and more, helping me gain a deeper understanding of how computers work at a fundamental level.
 
