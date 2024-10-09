@@ -26,6 +26,10 @@
 
 ### 🪟 Windows
 
+- #### Through projects like [Windows Server AD](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Windowss/03-AD)
+
+    - This project involved setting up a Windows Server Active Directory environment, promoting a Domain Controller VM, creating a new domain structure, configuring DNS, and joining VMs to the domain. I managed user accounts for Alice and Bob,I also configured IIS for Alice’s web app and verified DNS functionality.
+
 ### 🎣 Phishing
 
 - #### Through reports like [these](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Phishingg/reports)
@@ -40,36 +44,33 @@
 
     - Through this project, I enhanced my ability to recognize, report, and defend against phishing attacks, gaining insights into both detection and prevention strategies.
 
-### 👨‍💻 Programming
+### 💻 Programming
 
 - #### Through projects like [hackers_poulette](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Programmingg/projects/flask)
 
     - This project involved creating a backend solution for a company called Hackers Poulette™. This project not only enhanced my coding abilities but also deepened my understanding of web security practices.
 
-#### Skills Developed:
+- #### And [hostel scraper](https://github.com/pindjouf/BXL-Cyber-Camp/tree/main/Programmingg/projects/scraper)
 
-- **Backend Development with Python**: This project required me to use Python to handle backend logic, which included understanding and implementing HTTP methods (POST and GET) to manage form submissions.
-- **Form Input Sanitization and Validation**: I learned to sanitize form inputs to prevent security vulnerabilities like XSS (Cross-Site Scripting) and SQL injection attacks. This involved using libraries such as `html` and `bleach` for sanitization.
-- **Database Interaction**: Safely inserting sanitized data into a SQLite database was a key part of this project, which helped me understand the importance of database security and query parameterization.
-- **Template Rendering**: Utilizing Flask's built-in functionalities to create dynamic HTML templates allowed me to render user input and error messages effectively.
+    - A Python script to scrape hostel prices from Hostelworld, storing the data in MongoDB. Using Selenium, I automated data collection for hostel names, links, and prices, with updates logged for changes. This project enhanced my skills in automation, web scraping, and database management.
 
-    - This project significantly enhanced my understanding of backend development, form handling, and security practices essential for web development.
-
-- #### And [vpnode](https://github.com/pindjouf/vpnode)
-
-    - This wasn't part of the course but I've decided to automate the process of creating new users for VPNs, and thanks to my newly acquired skills I was able to start working on this personal project
-
-#### Skills Developed:
-
-- **File Handling in Python**: I learned how to read and replace specific strings in files, which is crucial for automating configuration tasks. Especially on linux systems.
-- **Error Handling**: Implementing error handling mechanisms to catch and manage exceptions, preventing unexpected behavior and improving the robustness of the code.
-
-    - This project allowed me to apply my programming skills to solve "*real-world*" problems, reinforcing the concepts learned during the bootcamp and expanding my capabilities in automation and scripting.
 
 ### 🚩 CTF(s)
 
-## What I'm working on
+I also participated in several Capture The Flag (CTF) competitions. One of the most significant challenges was the CTF I completed for admission to the Cyber Summer School organized by the Belgian Cyber Command. This challenge tested my technical knowledge and problem-solving skills across a variety of cybersecurity domains.
 
-- ### 👨‍💻 Programming
+You can find more details about this specific challenge and my approach in the dedicated repository [here](https://github.com/pindjouf/cyber_summer_school_application).
 
-- ### Making this README concise and complete
+## 👨‍💻 What I'm working on
+
+- ### 🌐 [Cryptoooor](https://cryptoooor.com)
+
+I'm actively developing *cryptoooor*, a file encryption web app and CLI written in Rust and WebAssembly. This project allows users to securely encrypt their files with ease, both from the browser and command line, providing a robust solution for modern file security needs.
+
+- ### 🔧 *From the Transistor to the Web Browser*
+
+I'm also working on the *From the Transistor to the Web Browser* course, where I'm learning the modern computer stack from first principles. This journey involves building components like a UART, CPU and more, helping me gain a deeper understanding of how computers work at a fundamental level.
+
+- ### 📝 [Kof](https://github.com/pindjouf/kof)
+
+In addition, I'm developing Kof, a terminal-based, Git-powered note management system designed to help users reorganize their thoughts through writing. It provides features like creating and managing notes, as well as a search function to quickly locate specific notes. I also plan to implement a syncing feature to allow users to sync their notes across devices.
