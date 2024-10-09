@@ -59,7 +59,8 @@
 
 I also participated in several Capture The Flag (CTF) competitions. One of the most significant challenges was the CTF I completed for admission to the Cyber Summer School organized by the Belgian Cyber Command. This challenge tested my technical knowledge and problem-solving skills across a variety of cybersecurity domains.
 
-You can find more details about this specific challenge and my approach in the dedicated repository [here](https://github.com/pindjouf/cyber_summer_school_application).
+You can find more details about this specific challenge and my approach in the dedicated repository [here](https://github.com/pindjouf/cyber_summer_school_application).  
+And more details about the experience on my [LinkedIn](https://www.linkedin.com/in/esa%C3%BC-bukasa-3143872a9/) and their [official website](https://www.cybersummerschool.be/).
 
 ## 👨‍💻 What I'm working on
 
