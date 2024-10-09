@@ -63,7 +63,7 @@ You can find more details about this specific challenge and my approach in the d
 
 ## 👨‍💻 What I'm working on
 
-- ### 🌐 [Cryptoooor](https://cryptoooor.com)
+- ### ⛓️ [Cryptoooor](https://cryptoooor.com)
 
 I'm actively developing *cryptoooor*, a file encryption web app and CLI written in Rust and WebAssembly. This project allows users to securely encrypt their files with ease, both from the browser and command line, providing a robust solution for modern file security needs.
 
