@@ -62,7 +62,7 @@ I also participated in several Capture The Flag (CTF) competitions. One of the m
 You can find more details about this specific challenge and my approach in the dedicated repository [here](https://github.com/pindjouf/cyber_summer_school_application).  
 And more details about the experience on my [LinkedIn](https://www.linkedin.com/in/esa%C3%BC-bukasa-3143872a9/) and their [official website](https://www.cybersummerschool.be/).
 
-## 👨‍💻 What I'm working on
+## 👨‍💻 What I'm working on now (post-bootcamp)
 
 - ### ⛓️ [Cryptoooor](https://cryptoooor.com)
 
